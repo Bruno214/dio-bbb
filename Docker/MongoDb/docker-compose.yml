@@ -20,5 +20,5 @@ services:
       - 8081:8081
     environment:
       ME_CONFIG_MONGODB_URL: mongodb://root:root@mongo:27017/
-      ME_CONFIG_BASICAUTH_USERNAME: admin   # usuário para acessar a interface web
-      ME_CONFIG_BASICAUTH_PASSWORD: admin   # senha para acessar a interface web
+      ME_CONFIG_BASICAUTH_USERNAME: admin  
+      ME_CONFIG_BASICAUTH_PASSWORD: admin   

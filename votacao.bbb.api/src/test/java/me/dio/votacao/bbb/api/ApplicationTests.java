@@ -1,4 +1,4 @@
-package me.dio.coding.votacao.bbb.api;
+package me.dio.votacao.bbb.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

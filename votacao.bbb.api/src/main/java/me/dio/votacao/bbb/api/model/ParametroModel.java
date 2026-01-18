@@ -16,5 +16,5 @@ public class ParametroModel {
 
     @Id
     private String chave;
-    private String valor;
+    private ConfigVotacao configVotacao;
 }

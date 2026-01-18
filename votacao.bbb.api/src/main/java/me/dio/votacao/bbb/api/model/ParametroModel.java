@@ -1,36 +1,20 @@
 package me.dio.votacao.bbb.api.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-
 @Document(collection = "parametros")
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
 public class ParametroModel {
-    public ParametroModel(String chave, String valor) {
-        this.chave = chave;
-        this.valor = valor;
-    }
-
-    public ParametroModel() {
-    }
 
     @Id
     private String chave;
     private String valor;
-
-    public String getChave() {
-        return chave;
-    }
-
-    public void setChave(String chave) {
-        this.chave = chave;
-    }
-
-    public String getValor() {
-        return valor;
-    }
-
-    public void setValor(String valor) {
-        this.valor = valor;
-    }
 }
